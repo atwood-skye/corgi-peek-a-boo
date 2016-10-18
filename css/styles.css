@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.6em;
+}
+
+header {
+  border-bottom: 3px solid black;
+  text-shadow: 1px 1px 1px #333;
+}
+
+p {
+  text-shadow: 1px 1px 1px #888;
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+  height: 200px;;
+}
+
+#initially-hidden1, #initially-hidden2, #initially-hidden3, #initially-hidden4, #initially-hidden5, #initially-hidden6, #initially-hidden7, #initially-hidden8, #initially-hidden9{
+  display: none;
+}
+
+.random {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: 50px;
+  border: 2px black solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #333;
+}
